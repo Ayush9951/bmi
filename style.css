@@ -1,61 +1,72 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
 }
 
-.main-box {
-    border: 1px solid lightseagreen;
-    width: 50%;
-    padding: 25px;
-    margin: auto ;
+.bmi-calculator-heading {
+  background: #8375ac;
+  color: white;
+  padding: 25px;
+  font-size: 24px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: -22px;
+}
+
+.input-bmi-data {
+  border: 1px solid #8375ac;
+  width: 50%;
+  padding: 25px;
+  margin: auto;
 }
 
 h2 {
-    color: lightseagreen;
-    display: inline-block;
+  color: #8375ac;
+  display: inline-block;
 }
 
 h4 {
-    display: inline-block;
-    margin-right: 25px;
-    padding-left: 25px;  
+  display: inline-block;
+  margin-right: 25px;
+  padding-left: 25px;
 }
 
 input {
-    width: 75px;
-    padding: 5px;
+  width: 75px;
+  padding: 5px;
 }
 
-button {
-    padding: 8px;
-    width: 100px;
-    font-weight: bold;
-    background-color: lightseagreen;
-    border: none;
-    color: white;
-    letter-spacing: 2;
+#bmi-btn {
+  padding: 8px;
+  width: 100px;
+  font-weight: bold;
+  background-color: #8375ac;
+  border: none;
+  color: white;
+  letter-spacing: 2;
 }
 
-.weight {
-    margin-left: -165px;
+.weight-heading {
+  margin-left: -165px;
 }
 
 #weight-el {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 #result-el {
-    width: 50%;
-    padding: 25px;
-    border: 1px solid lightseagreen;
-    margin: 25px auto ;
-    font-weight: bold;
+  width: 50%;
+  padding: 25px;
+  border: 1px solid #8375ac;
+  margin: 25px auto;
+  font-weight: bold;
 }
 
 .bmi-info {
-    height: 175px;
-    width: 275px;
-    border: 1px solid lightseagreen;
-    margin: auto;
+  height: 175px;
+  width: 275px;
+  border: 1px solid #8375ac;
+  margin: auto;
 }
